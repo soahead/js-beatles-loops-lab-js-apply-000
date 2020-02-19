@@ -21,9 +21,10 @@ function iLoveTheBeatles(number){
   var empty =[]
   do
 {
-  var str = "I love the Beatles";
-  empty.push(str)
+  var str = "I love the Beatles!";
+  empty.push(str);
+  number++;
 }
-while (condition); 
-
+while (number < 15); 
+return empty
 }
