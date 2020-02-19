@@ -9,5 +9,11 @@ return empty
 }
 
 function johnLennonFacts(facts){
-  
+  var empty = [];
+  for (var i = 0; i < facts.length; i++){
+    var str = facts[i] + "!!!";
+    empty.push(str)
+  }
+  return empty
 }
+
