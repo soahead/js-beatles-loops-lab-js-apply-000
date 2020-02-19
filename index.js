@@ -21,8 +21,9 @@ function iLoveTheBeatles(number){
   var empty =[]
   do
 {
-  statement block
+  var str = "I love the Beatles";
+  empty.push(str)
 }
 while (condition); 
-}
+
 }
